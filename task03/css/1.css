@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+#main{
+    width:800px;
+    height:561px;
+    background-color: #EEEEEE;
+    margin:20px auto;
+    border:1px solid #999;
+    position:relative;
+}
+ .logo{
+     width: 160px;
+     height: 120px;
+     float:left;
+     border:1px solid #999;
+     margin:20px;
+     padding:20px;
+     background-color: #fff;
+
+ }
+ .logo span{
+     position:absolute;
+     top:40px;
+     left:160px;
+ }
+ .intro{
+     width:auto;
+     float:left;
+     margin:20px;
+     padding:20px;
+    position:absolute;
+     border:1px solid #999;
+     background-color: #fff;
+     right:162px;
+     left:221px;
+ }
+ .sidebar{
+     float:right;
+
+     height: 517px;
+     border:1px solid #999;
+     margin:20px;
+     background-color: #fff;
+     position:absolute;
+     right:0px;
+ }
+ .sidebar .member{
+     padding:20px 20px 0px 20px;
+ }
